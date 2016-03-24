@@ -8,6 +8,7 @@ CheminneR, fmcsR, KEGGREST.
 ***Medium: Load the glycolysis file and identify which functions requires H2O. https://gist.github.com/ampinzonv/c763c7a9d147aecec721
 As the file is not in SMBL file format and not in TSV format concluded that it was supposed to be manually solved.
 
+
 "H2O[c] + NADP+[c] + acetaldehyde[c] => H+[c] + NADPH[c] + acetate[c]"
 "H2O[m] + NAD+[m] + acetaldehyde[m] => H+[m] + NADH[m] + acetate[m]"
 "H2O[c] + NADP+[c] + methylglyoxal[c] => H+[c] + NADPH[c] + pyruvate[c]"
@@ -21,6 +22,8 @@ As the file is not in SMBL file format and not in TSV format concluded that it w
 "H+[c] + NADPH[c] + O2[c] + ethanol[c] => 2 H2O[c] + NADP+[c] + acetaldehyde[c]"
 
 ***Hard: Load the glycolysis file and identify which functions produce H2O as product.
+
+
 "2-phospho-D-glycerate[c] <=> H2O[c] + PEP[c]"
 "H2O2[p] + ethanol[p] => 2 H2O[p] + acetaldehyde[p]"
 "H+[c] + NADPH[c] + O2[c] + ethanol[c] => 2 H2O[c] + NADP+[c] + acetaldehyde[c]"
